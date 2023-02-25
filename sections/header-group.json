@@ -1,0 +1,43 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "-20% mit Code \"AK47FINALSALE20PROZENT\" --- FREE SHIPPING AB EINEM BESTELLWERT VON 100€",
+            "text_alignment": "center",
+            "color_scheme": "inverse",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {}
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "background-2",
+        "logo_position": "top-center",
+        "menu": "test-top-sidebar",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
